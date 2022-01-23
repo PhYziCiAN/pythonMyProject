@@ -8,3 +8,6 @@
 #             print(Tr(x, y, z))
 
 print(43 % 2)
+
+for x in range(1,101):
+    print('\t', x*x)
