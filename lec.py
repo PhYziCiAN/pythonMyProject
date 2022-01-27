@@ -61,8 +61,8 @@ data.writelines(colors) # no separators, data.write ('\nLine2\n') to add data to
 data.close()
 
 exit() # this line tells not to run further code
-path = 'file.txt'
-data = open(path, 'r')
-for line in data:
-    print(line)
-data.close()
+# path = 'file.txt'
+# data = open(path, 'r')
+# for line in data:
+#     print(line)
+# data.close()
