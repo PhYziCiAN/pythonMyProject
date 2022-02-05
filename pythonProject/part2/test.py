@@ -14,7 +14,11 @@
 #         list.append(i)
 # list = [i f or i in range(1,21) if i%2 ==0]
 # print(list)
+<<<<<<< HEAD
 path = 'numbers.txt'
+=======
+path = 'G:/Мой диск/Learn_GB/Python/pythonProject/part2/numbers.txt'
+>>>>>>> a15625ee115f2555f51d337e4b0dedf20e24fbf6
 h = open(path,'r')
 data = h.read()
 h.close()
