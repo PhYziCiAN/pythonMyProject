@@ -8,6 +8,11 @@ def calc(op, a, b):
     print(op(a, b))
 calc(lambda x, y: x*y, 6, 7)
 f = lambda a, b: a*b
+
+def f(x):
+    return x**2
+list = [(i,f(i)) for i in range(1, 21) if i % 5 == 0]
+print(list)
 # print(f(4, 5))
 
 # list = []
