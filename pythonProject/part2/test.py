@@ -1,10 +1,13 @@
-# def math(op, x):
-#     print(op(x))
+def math(op, x):
+    print(op(x))
 
-# def cal1(x):
-#     return x*11
+def cal1(x, y):
+    return x*y
 
-# f = lambda a, b: a*b
+def calc(op, a, b):
+    print(op(a, b))
+calc(lambda x, y: x*y, 6, 7)
+f = lambda a, b: a*b
 # print(f(4, 5))
 
 # list = []
@@ -14,19 +17,19 @@
 #         list.append(i)
 # list = [i f or i in range(1,21) if i%2 ==0]
 # print(list)
-path = 'G:/Мой диск/Learn_GB/Python/pythonProject/part2/numbers.txt'
-h = open(path,'r')
-data = h.read()
-h.close()
+# path = 'G:/Мой диск/Learn_GB/Python/pythonProject/part2/numbers.txt'
+# h = open(path,'r')
+# data = h.read()
+# h.close()
 # space_pos = data.index(' ')
 # print(space_pos)
-numbers = []
-while data!=' ':
-    space_pos = data.index(' ')
-    numbers.append(int(data[:space_pos:]))
-    data = data[space_pos+1:]
-out = []
-for e in numbers:
-    if not e%2:
-        out.append((e, e*2))
-print(out)
+# numbers = []
+# while data!=' ':
+#     space_pos = data.index(' ')
+#     numbers.append(int(data[:space_pos:]))
+#     data = data[space_pos+1:]
+# out = []
+# for e in numbers:
+#     if not e%2:
+#         out.append((e, e*2))
+# print(out)
