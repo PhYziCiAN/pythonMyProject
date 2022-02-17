@@ -14,3 +14,6 @@ def get_windspeed(sensor):
         return randint(1,30)
     else:
         return 0
+
+def data_collection():
+    return (get_temperature(), get_pressure(), get_windspeed())
