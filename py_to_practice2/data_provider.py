@@ -15,5 +15,5 @@ def get_windspeed(sensor):
     else:
         return 0
 
-def data_collection():
-    return (get_temperature(), get_pressure(), get_windspeed())
+def data_collection(sensor = 1):
+    return (get_temperature(sensor), get_pressure(sensor), get_windspeed(sensor))

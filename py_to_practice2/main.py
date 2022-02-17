@@ -4,6 +4,6 @@ import data_provider as dp
 
 # print(hc.create())
 # print(xg.create())
-hc.create1(dp.data_collection())
-xg.create1(dp.data_collection())
+hc.create1(xg.create1(dp.data_collection()))
+
 
