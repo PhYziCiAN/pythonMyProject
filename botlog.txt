@@ -1,0 +1,4 @@
+2022-02-18 18:23:42,037 - apscheduler.scheduler - INFO - Scheduler started
+2022-02-18 20:20:40,174 - root - INFO - Started
+2022-02-18 20:20:40,174 - root - INFO - Finished
+2022-02-18 20:20:40,175 - apscheduler.scheduler - INFO - Scheduler started
